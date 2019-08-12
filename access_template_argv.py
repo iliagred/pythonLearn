@@ -1,5 +1,6 @@
 from sys import argv 
 
+
 interface, vlan = argv[1:] 
 
 access_template = ['switchport mode access',
